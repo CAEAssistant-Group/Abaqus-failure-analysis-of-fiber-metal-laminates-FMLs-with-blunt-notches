@@ -8,6 +8,11 @@ The laminate presented in this project consists of three aluminum layers and two
 
 To solve the problem, the static solver of Abaqus is used. As it checks for convergence control in each increment, the obtained results are more reliable compared to Abaqus explicit solver. However, convergence issues may still occur due to the nonlinearity of the problem and using the Hashin damage model when using this solver.
 
+If you encounter any issues importing the attached INP files and analyzing them in Abaqus, you can refer to the PDF guide included in this repository, titled "How to Analyze.pdf".
+
+![image](https://github.com/user-attachments/assets/c2cb4fe8-d22a-499a-96ec-7c4c4ad7434d)
+
+
 Notice that, here, an Abaqus input file along with its ODB is attached. In this model, behavior of a laminate sample is analyzed using the Hashin damage model in Abaqus. However, if you would like to receive training on the Hashin damage model in Abaqus and master its application, you can visit our website, where we offer workshops and lessons on using the Hashin model for analyzing the behavior of various materials, ranging from fiber composites to wood, in Abaqus.
 
 ![image](https://github.com/user-attachments/assets/73f9ecd9-bb1c-4dce-bf2a-04693d33eca4)
